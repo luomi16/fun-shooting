@@ -1,0 +1,45 @@
+<!--pages/me/me.wxml-->
+<view class="content">
+  <view class="info-top">
+    <view class="top" bindtap="bindMy" style="position: relative; left: 0rpx; top: 0rpx">
+      <image class="avatar" src="{{user.touxiang}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{username}}</text>
+      <!-- user.username -->
+    </view>
+  </view> 
+
+  <!--分割线-->
+  <view class="hr">
+  </view>   
+  <view class="info-mid">
+    <navigator url="myorder/myorder" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+      <view class="weui-cell__bd">我的订单</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+    </navigator>
+    <navigator url="realname/realname" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+      <view class="weui-cell__bd">实名认证</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+    </navigator>
+    <navigator url="bindaccount/bindaccount" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+      <view class="weui-cell__bd">绑定账号</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+    </navigator>
+  </view>
+
+  <!--分割线-->
+  <view class="hr">
+  </view>   
+  <view class="info-mid">
+    <navigator url="help/help" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+      <view class="weui-cell__bd">帮助中心</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+    </navigator>
+    <navigator url="about/about" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+      <view class="weui-cell__bd">关于我们</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+    </navigator>
+  </view>
+    
+  
+</view>
+

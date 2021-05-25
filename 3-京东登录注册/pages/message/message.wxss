@@ -1,0 +1,8 @@
+/* pages/message/message.wxss */
+@import '/style/weui.wxss';
+.hr{
+  height: 10px;
+  background-color:#cccccc;
+  /*透明样式*/
+  opacity: 0.2;
+}

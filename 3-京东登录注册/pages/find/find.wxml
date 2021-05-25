@@ -1,0 +1,16 @@
+<!--pages/find/find.wxml-->
+<!--列表头部-->
+<view class="head">
+    <view>约拍展示</view>
+    <view class="right">按风格</view>
+  </view>
+
+  <!--列表-->
+  <!--引入模版-->
+  <import src="../template/movie-template.wxml"></import>
+  <view class="list">
+    <!--is验证模版的名称-->
+    <!-- data传入数据到模版内部使用-->
+    <block wx:for="{{array}}"></block>
+    <template is="cooks" data="{{array}}"></template>
+  </view>

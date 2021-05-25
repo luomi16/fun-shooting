@@ -1,0 +1,32 @@
+/* pages/me/me.wxss */
+@import '/style/weui.wxss';
+.top {
+  background-color: #fff;
+  padding: 20rpx;
+  /* border-bottom: 2rpx solid #d0d0d0; */
+  position: relative;
+  display: flex;
+  height: 120rpx;
+  box-sizing: border-box;
+}
+
+.top image {
+  height: 110rpx;
+  width: 110rpx;
+  margin-left: 30rpx;
+  border-radius: 100rpx;
+  border: 2rpx solid #d0d0d0;
+}
+
+.userinfo-nickname{
+  line-height: 120rpx;
+  margin-left: 30rpx;
+}
+
+.hr{
+  height: 10px;
+  background-color:#cccccc;
+  margin-top: 15px;
+  /*透明样式*/
+  opacity: 0.2;
+}

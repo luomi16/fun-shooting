@@ -1,0 +1,52 @@
+{
+  "pages":[
+    "pages/movie/movie",
+    "pages/find/find",
+    "pages/me/me",
+    "pages/company/company",
+    "pages/login/login",
+    "pages/message/message",
+    "pages/me/myorder/myorder",
+    "pages/me/realname/realname",
+    "pages/me/help/help",
+    "pages/me/about/about"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#f8ebb6",
+    "navigationBarTitleText": "趣拍",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "selectedColor": "#f4ea2a",
+    "backgroundColor": "#f5f5f5",
+    "borderStyle": "black",
+    "list": [{
+      "pagePath": "pages/movie/movie",
+      "text": "趣拍首页",
+      "iconPath": "images/bar/main.png",
+      "selectedIconPath": "images/bar/main-0.png"
+    },
+    {
+      "pagePath": "pages/find/find",
+      "text": "发现",
+      "iconPath": "images/bar/find.png",
+      "selectedIconPath": "images/bar/find-0.png"
+    },
+    {
+      "pagePath": "pages/message/message",
+      "text": "消息",
+      "iconPath": "images/bar/message.png",
+      "selectedIconPath": "images/bar/message-0.png"
+    },
+    {
+      "pagePath": "pages/me/me",
+      "text": "我的",
+      "iconPath": "images/bar/me.png",
+      "selectedIconPath": "images/bar/me-0.png"
+    }
+  ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
